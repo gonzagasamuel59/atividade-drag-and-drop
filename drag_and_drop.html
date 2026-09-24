@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAADicUQAAAAAAMzMzADY2NgAPz8/AAkJzgAStv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERERERERERERERERERERERERERERERERERERERREERERREEQBCJAAAAiQAYEJAAAAEJAUQBAAAAABAAREAAAMAAAABEREDMwMzMBERERAzAzMBEREREQAAABERERERERERERERERERERERERERERERERERERERERERERH//wAA//8AAP//AAD//wAAx+MAAAAAAAAAAAAAgAEAAMABAADwAwAA+AcAAPwPAAD//wAA//8AAP//AAD//wAA"
+      rel="icon"
+      type="image/x-icon"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment-range/3.1.1/moment-range.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/stylesheet.css"
+      media="screen"
+    />
+    <body>
+        <div class="container">
+           <ul class="parking-rules">
+  <li class="parking-rule">
+    <ul>
+      <li>Ambulância</li>
+      <li>24 horas</li>
+      <li>Todos os dias</li>
+    </ul>
+  </li>
+
+  <li class="parking-rule">
+    <ul>
+      <li>SUV</li>
+      <li>Proibido quinta-feira, das 7h às 12h</li>
+      <li>Liberado nos demais horários</li>
+    </ul>
+  </li>
+
+  <li class="parking-rule">
+    <ul>
+      <li>Carro</li>
+      <li>7h às 20h</li>
+      <li>Somente segunda-feira</li>
+    </ul>
+  </li>
+
+  <li class="parking-rule">
+    <ul>
+      <li>Moto</li>
+      <li>7h às 20h</li>
+      <li>Todos os dias</li>
+    </ul>
+  </li>
+</ul>
+          <section class="drop-zone">
+          </section>
+          <p id="parking-message"></p>
+          <section class="drag-vehicle">
+              <ul class="vehicles">
+                  <li>
+              <!-- objetos arrastáveis ​​devem ter o atributo arrastável -->
+                      <img id="ft" alt="suv" src="imagens-veiculos/suv.svg">
+                  </li>
+                  <li>
+                      <img id="ambulance" alt="ambulance" src="imagens-veiculos/ambulancia.svg">
+                  </li>
+                  <li>
+                      <img id="car" alt="car" src="imagens-veiculos/carro.svg">
+                  </li>
+                  <li>
+                      <img id="bike" alt="motorcycle" src="imagens-veiculos/moto.svg">
+                  </li>
+              </ul>
+          </section>
+        </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
